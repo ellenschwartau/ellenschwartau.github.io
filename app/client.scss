@@ -1,0 +1,21 @@
+// --
+// includes some global variables like colors and fonts or external stylesheets
+// --
+
+// external stylesheets
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
+
+//fonts
+$font-roboto: 'Roboto', sans-serif;
+$font-weight-thin: 100;
+$font-weight-normal: 300;
+$font-weight-bold: 400;
+$font-size-body: 14px;
+$font-size-big: 28px;
+$line-height-normal: 28px;
+$line-height-big: 40px;
+
+$font-color: #4a4a4a;
+$font-color-grey: #a3a3a3;
+$font-color-darkgrey: #6d6d6d;
+$font-color-primary: #00b8af;
