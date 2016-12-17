@@ -9,7 +9,6 @@ import './Layout.scss'
 class Layout extends React.Component {
 
     render() {
-        // children-property will be set by react router
         return (
             <div>
                 <Header title="Ellens Github Page"/>

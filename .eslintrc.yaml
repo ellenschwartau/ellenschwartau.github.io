@@ -1,0 +1,20 @@
+---
+  parser: babel-eslint
+  ecmaVersion: 6
+  ecmaFeatures:
+    jsx: true
+  plugins:
+    - react
+  extends: ["eslint:recommended", "plugin:react/recommended"]
+  env:
+    node: true
+    browser: true
+    es6: true
+  rules:
+    quotes: [2, 'single']
+    max-len: [1, 120, 2]
+    indent: ["error", 4, { "SwitchCase": 1 }]
+    no-console: 1
+  globals:
+    '__CLIENT__': false
+    '__SERVER__': false

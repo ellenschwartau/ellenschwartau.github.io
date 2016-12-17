@@ -23,9 +23,10 @@ module.exports = {
                 test: /\.*css$/,
                 loader: ExtractTextPlugin.extract('style', 'css!sass?sourceMap&omitSourceMapUrl=true')
             },
-            {
-                test: /\.js(x)?$/,
-                loader: 'babel', exclude: /node_modules/
+            { 
+                test: /\.jsx?$/,
+                exclude: /node_modules/, 
+                loader: "babel", 
             }
         ]
     }

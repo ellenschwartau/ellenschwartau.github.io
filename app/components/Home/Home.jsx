@@ -9,7 +9,14 @@ export default class Home extends React.Component {
 
     render() {
         return (
-            <Snake/>
+            <div className="home">
+                <div className="home__snake">
+                    <Snake />
+                </div>
+                <div className="home__info">
+                    
+                </div>
+            </div>
         );
     }
 }

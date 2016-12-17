@@ -3,10 +3,12 @@
 // --
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, browserHistory } from 'react-router'
-import routes from './routes.jsx'
+import Home from './components/Home/Home.jsx'
+import Layout from './components/Layout/Layout.jsx'
 
 ReactDOM.render(
-    <Router history={browserHistory}>{routes}</Router>
+    <Layout>
+        <Home />
+    </Layout>
     , document.getElementById('app')
 );
